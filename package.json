@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/OsvaldoSalomon/data-driven-websites#readme",
   "dependencies": {
     "express": "^4.18.0",
+    "morgan": "^1.10.0",
     "pug": "^2.0.4"
   },
   "devDependencies": {
