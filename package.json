@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/OsvaldoSalomon/data-driven-websites#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
     "express": "^4.18.0",
     "morgan": "^1.10.0",
     "per-env": "^1.0.2",
